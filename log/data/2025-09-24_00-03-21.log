@@ -1,0 +1,31 @@
+2025-09-24 00:03:21 [INFO] 数据库加载成功
+2025-09-24 00:03:21 [INFO] 解析更新日志成功
+2025-09-24 00:03:21 [INFO] ACM GAME 启动成功!
+2025-09-24 00:03:21 [INFO] 目前版本: v2.0.0
+2025-09-24 00:09:07 [ERROR] 查询用户失败:
+%!(EXTRA *gorm.DB=&{0xc00012a090 Error 1146 (42S02): Table 'acm_game.users' doesn't exist 0 0xc000152000 0})2025-09-24 00:09:07 [INFO] 用户不存在，创建新用户:
+%!(EXTRA string=Xiao_Shuai_Ge)2025-09-24 00:09:07 [INFO] 玩家 Xiao_Shuai_Ge 进入聊天室
+2025-09-24 00:10:02 [ERROR] 查询用户失败:
+%!(EXTRA *gorm.DB=&{0xc00012a090 Error 1146 (42S02): Table 'acm_game.users' doesn't exist 0 0xc000152780 0})2025-09-24 00:10:02 [INFO] 用户不存在，创建新用户:
+%!(EXTRA string=Xiao_Shuai_Ge)2025-09-24 00:10:02 [INFO] 玩家 Xiao_Shuai_Ge 进入聊天室
+2025-09-24 00:10:08 [INFO] 玩家 Xiao_Shuai_Ge 离开聊天室
+2025-09-24 00:10:09 [ERROR] 查询用户失败:
+%!(EXTRA *gorm.DB=&{0xc00012a090 Error 1146 (42S02): Table 'acm_game.users' doesn't exist 0 0xc0002b2000 0})2025-09-24 00:10:09 [INFO] 用户不存在，创建新用户:
+%!(EXTRA string=Xiao_Shuai_Ge)2025-09-24 00:10:09 [INFO] 玩家 Xiao_Shuai_Ge 进入聊天室
+2025-09-24 00:10:24 [INFO] 玩家 Xiao_Shuai_Ge 离开聊天室
+2025-09-24 00:10:39 [ERROR] 查询用户失败:
+%!(EXTRA *gorm.DB=&{0xc00012a090 Error 1146 (42S02): Table 'acm_game.users' doesn't exist 0 0xc000256960 0})2025-09-24 00:10:39 [INFO] 用户不存在，创建新用户:
+%!(EXTRA string=Xiao_Shuai_Ge)2025-09-24 00:10:39 [INFO] 玩家 Xiao_Shuai_Ge 进入聊天室
+2025-09-24 00:10:42 [INFO] 玩家 Xiao_Shuai_Ge 离开聊天室
+2025-09-24 00:11:23 [INFO] 玩家 Xiao_Shuai_Ge 离开聊天室
+2025-09-24 00:11:24 [ERROR] 查询用户失败:
+%!(EXTRA *gorm.DB=&{0xc00012a090 Error 1146 (42S02): Table 'acm_game.users' doesn't exist 0 0xc0002b25a0 0})2025-09-24 00:11:24 [INFO] 用户不存在，创建新用户:
+%!(EXTRA string=Xiao_Shuai_Ge)2025-09-24 00:11:24 [INFO] 玩家 Xiao_Shuai_Ge 进入聊天室
+2025-09-24 00:11:37 [INFO] 游戏开始
+2025-09-24 00:12:19 [INFO] 进行一次检查
+2025-09-24 00:12:19 [INFO] 正在获取用户Xiao_Shuai_Ge的提交记录
+2025-09-24 00:12:20 [ERROR] 请求超时!
+2025-09-24 00:15:19 [INFO] 进行一次检查
+2025-09-24 00:15:19 [INFO] 正在获取用户Xiao_Shuai_Ge的提交记录
+2025-09-24 00:15:20 [ERROR] 请求超时!
+2025-09-24 00:16:50 [INFO] 玩家 Xiao_Shuai_Ge 离开聊天室

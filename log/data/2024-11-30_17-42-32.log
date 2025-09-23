@@ -1,0 +1,19 @@
+2024-11-30 17:42:32 [INFO] 数据库加载成功
+2024-11-30 17:42:32 [INFO] ACM GAME 启动成功!
+2024-11-30 17:42:32 [INFO] 目前版本: v2.0.0
+2024-11-30 17:42:38 [INFO] 玩家 X 进入聊天室
+2024-11-30 17:42:38 [DEBUG] 成功发送一条群发消息: [[33m系统[0m] X [33m进入聊天室[0m
+2024-11-30 17:42:40 [ERROR] 生成题目失败: WHERE conditions required
+WHERE conditions required
+WHERE conditions required
+WHERE conditions required
+WHERE conditions required
+WHERE conditions required
+2024-11-30 17:42:40 [DEBUG] 成功对发送一条个人消息: 
+题目列表:
+2024-11-30 17:42:40 [DEBUG] 成功对发送一条个人消息: 1. https://mirror.codeforces.com/problemset/problem/1397/A (难度: 800)
+2024-11-30 17:42:40 [DEBUG] 成功对发送一条个人消息: 2. https://mirror.codeforces.com/problemset/problem/1650/A (难度: 800)
+2024-11-30 17:42:40 [DEBUG] 成功对发送一条个人消息: 3. https://mirror.codeforces.com/problemset/problem/124/A (难度: 1000)
+2024-11-30 17:42:40 [DEBUG] 成功对发送一条个人消息: 4. https://mirror.codeforces.com/problemset/problem/1700/B (难度: 1100)
+2024-11-30 17:42:40 [DEBUG] 成功对发送一条个人消息: 5. https://mirror.codeforces.com/problemset/problem/743/C (难度: 1500)
+2024-11-30 17:42:40 [DEBUG] 成功对发送一条个人消息: 6. https://mirror.codeforces.com/problemset/problem/106/C (难度: 1700)
