@@ -1,7 +1,0 @@
-2024-12-12 18:11:43 [INFO] 数据库加载成功
-2024-12-12 18:11:43 [INFO] 解析更新日志成功
-2024-12-12 18:11:43 [INFO] ACM GAME 启动成功!
-2024-12-12 18:11:43 [INFO] 目前版本: v2.0.0
-2024-12-12 18:11:45 [ERROR] 查询用户失败:
-%!(EXTRA *gorm.DB=&{0xc0002a2090 Error 1054 (42S22): Unknown column 'username' in 'where clause' 0 0xc00029a700 0})2024-12-12 18:11:45 [INFO] 用户不存在，创建新用户:
-%!(EXTRA string=Xiao_Shuai_Ge)2024-12-12 18:11:45 [INFO] 玩家 Xiao_Shuai_Ge 进入聊天室
