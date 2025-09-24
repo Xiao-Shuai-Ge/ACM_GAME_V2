@@ -1,7 +1,6 @@
 package handler
 
 import (
-	"ACM_GAME_V2/common/ais"
 	"ACM_GAME_V2/global"
 	"fmt"
 	"net"
@@ -63,10 +62,8 @@ func ListProblemsCommand(conn net.Conn) {
 	for i := 0; i < len(global.Problems); i++ {
 		if global.ProblemPenalty[i] == -1 {
 			SendMessage(conn, fmt.Sprintf("%d. %s (难度: %d)", i+1, global.Problems[i].Url, global.Problems[i].Difficulty))
-			SendMessage(conn, ais.CommonAI("你是一个泼辣的大小姐，语气傲娇", fmt.Sprintf("%d. %s (难度: %d)", i+1, global.Problems[i].Url, global.Problems[i].Difficulty)))
 		} else {
 			SendMessage(conn, global.DARKWHITE+fmt.Sprintf("%d. %s (难度: %d)"+global.GREEN+" [已解决]"+global.RESET, i+1, global.Problems[i].Url, global.Problems[i].Difficulty))
-			SendMessage(conn, ais.CommonAI("你是一个温柔的猫娘，语气可爱，声音甜美", global.DARKWHITE+fmt.Sprintf("%d. %s (难度: %d)"+global.GREEN+" [已解决]"+global.RESET, i+1, global.Problems[i].Url, global.Problems[i].Difficulty)))
 		}
 	}
 	SendMessage(conn, fmt.Sprintf("游戏时间: (%d/%d)", (time.Now().Unix()-global.BeginTime)/60, global.GameTime/60))
