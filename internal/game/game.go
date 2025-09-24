@@ -1,6 +1,7 @@
 package game
 
 import (
+	"ACM_GAME_V2/common/ais"
 	"ACM_GAME_V2/global"
 	"ACM_GAME_V2/internal/handler"
 	"ACM_GAME_V2/internal/repo"
@@ -55,6 +56,8 @@ func Game() {
 		}
 	}
 	handler.SendBroadcast(global.SEND_XITONG + fmt.Sprintf(" 游戏结束! 共解决题目: %d, 总罚时: %d", AC, penaly))
+
+	handler.SendBroadcast(ais.CommonAI("你是一个温柔的猫娘，性格可爱，语气温柔体贴", global.SEND_XITONG+fmt.Sprintf(" 游戏结束! 共解决题目: %d, 总罚时: %d", AC, penaly)))
 	for conn := range global.Clients {
 		handler.ListScoresCommand(conn)
 	}
