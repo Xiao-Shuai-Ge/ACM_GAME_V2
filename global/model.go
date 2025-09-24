@@ -11,7 +11,7 @@ type Message struct {
 type Problem struct {
 	Url        string `gorm:"type:varchar(100);null;"`
 	Difficulty int    `gorm:"type:int;null;"`
-	//IsUsed     bool   `gorm:"type:tinyint(1);null;"`
+	IsUsed     bool   `gorm:"type:tinyint(1);null;"`
 }
 
 type User struct {

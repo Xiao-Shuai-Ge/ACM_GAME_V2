@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"ACM_GAME_V2/common/ais"
 	"ACM_GAME_V2/global"
 	"ACM_GAME_V2/internal/repo"
 	"ACM_GAME_V2/log/xlog"
@@ -147,6 +148,7 @@ func Check() {
 		if AC {
 			global.ProblemPenalty[i] = int(time.Now().Unix()-global.BeginTime)/60 + WA*10
 			SendBroadcast(fmt.Sprintf(global.SEND_XITONG+" %s "+global.GREEN+"AC了第 %d 题！(罚时: %d )"+global.RESET, global.UserNameDisplay[AC_User], i+1, global.ProblemPenalty[i]))
+			SendBroadcast(ais.CommonAI("你是一个温柔的猫娘，语气可爱，声音甜美", fmt.Sprintf(global.SEND_XITONG+" %s "+global.GREEN+"AC了第 %d 题！(罚时: %d )"+global.RESET, global.UserNameDisplay[AC_User], i+1, global.ProblemPenalty[i])))
 			SendMessage(AC_User, fmt.Sprintf(global.YELLOW+" + %d 贡献分 (参加游戏得分)"+global.RESET, global.Problems[i].Difficulty/10))
 			global.Score[AC_User] += global.Problems[i].Difficulty / 10
 			repo.MarkUsed(global.Problems[i].Url)
