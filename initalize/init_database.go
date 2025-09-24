@@ -11,6 +11,14 @@ import (
 func InitDatabase() {
 	var err error
 	global.DB, err = gorm.Open(mysql.Open(global.DSN), &gorm.Config{})
+
+	global.DB.AutoMigrate(
+		&global.User{},
+		&global.Problem{},
+		&global.Text{},
+		&global.Message{},
+		&global.Submission{},
+	)
 	if err != nil {
 		xlog.Error("数据库加载失败")
 		return
