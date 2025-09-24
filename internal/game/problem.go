@@ -31,6 +31,7 @@ func GetProblem() {
 	RandomSort()
 }
 
+// 随机排序
 func RandomSort() {
 	for i := 0; i < 100; i++ {
 		l := rand.Intn(len(global.Problems))
