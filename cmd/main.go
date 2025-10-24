@@ -41,4 +41,6 @@ func main() {
 	}
 
 	time.Sleep(100 * time.Second)
+
+	// 测试 gemini ai code review
 }
